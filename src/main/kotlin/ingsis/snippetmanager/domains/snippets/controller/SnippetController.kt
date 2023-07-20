@@ -58,6 +58,7 @@ class SnippetController {
     }
 
 
+
     @PutMapping("/snippet/{id}")
     fun updateSnippet(
         @PathVariable id: UUID,
